@@ -1,3 +1,4 @@
+import '../SharedLayout/SharedLayout.css';
 export const SharedLayout = () => {
   return (
     <>

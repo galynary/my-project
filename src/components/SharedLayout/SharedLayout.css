@@ -1,0 +1,11 @@
+.header-nav-list {
+  display: flex;
+  margin-right: 0px;
+  gap: 20px;
+}
+.header {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  right: 0px;
+}
