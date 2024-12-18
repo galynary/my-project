@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/my-project/static/js/main.f05f0dcf.js",
+    "main.css": "/my-project/static/css/main.56fc647b.css",
+    "main.js": "/my-project/static/js/main.3f39221b.js",
+    "static/media/lemons-img.jpg": "/my-project/static/media/lemons-img.ead518c214b144213b5e.jpg",
     "index.html": "/my-project/index.html",
-    "main.f05f0dcf.js.map": "/my-project/static/js/main.f05f0dcf.js.map"
+    "main.56fc647b.css.map": "/my-project/static/css/main.56fc647b.css.map",
+    "main.3f39221b.js.map": "/my-project/static/js/main.3f39221b.js.map"
   },
   "entrypoints": [
-    "static/js/main.f05f0dcf.js"
+    "static/css/main.56fc647b.css",
+    "static/js/main.3f39221b.js"
   ]
 }
