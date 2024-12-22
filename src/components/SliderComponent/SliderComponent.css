@@ -67,8 +67,9 @@
 
   .text-content h2 {
     margin-bottom: 15px;
-    font-size: 1.5rem;
-    color: var(--grayColor);
+    font-size: 1.8rem;
+    color: #90630a;
+    font-weight: 800;
   }
 
   .text-content p {
@@ -92,5 +93,20 @@
 
   .text-content button:hover {
     background-color: #0056b3;
+  }
+}
+@media screen and (min-width: 920px) {
+  .slide-content {
+    flex-direction: row;
+    align-items: start;
+  }
+  .wrap-slide-img {
+    padding-bottom: 0px;
+  }
+  .text-content {
+    padding-top: 100px;
+  }
+  .text-content {
+    text-align: left;
   }
 }
