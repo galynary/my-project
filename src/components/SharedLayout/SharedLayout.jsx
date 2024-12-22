@@ -2,7 +2,7 @@ import '../SharedLayout/SharedLayout.css';
 export const SharedLayout = () => {
   return (
     <>
-      <div className="header">
+      <header className="header">
         <div className="header-container container">
           <div className="header-logo"></div>
           <ul className="header-nav-list">
@@ -12,7 +12,7 @@ export const SharedLayout = () => {
             <li className="header-nav-item">Контакти</li>
           </ul>
         </div>
-      </div>
+      </header>
     </>
   );
 };

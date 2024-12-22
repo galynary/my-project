@@ -1,8 +1,11 @@
 :root {
   --blackColor: #000;
-  --secondColor: #100f0f;
-  --secondGray: #a39d9d;
-  --accentColor: #ecd60f;
+  --secondColor: #f9de2f;
+  --secondGray: #444643;
+  --yelowColor: #f9de2f;
+  --greenColor: #b0c658;
+  --secondGreenColor: #4acc19;
+  --orangeColor: #e0c02e;
   --whiteColor: #fff;
-  --grayColor: #f3f2f2;
+  --grayColor: #4e4e4c;
 }

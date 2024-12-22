@@ -1,6 +1,9 @@
 .page-fruits {
   width: 100%;
+  height: auto;
+  position: relative;
 }
+
 .hero {
   position: absolute;
   width: 100%;
@@ -9,6 +12,9 @@
 }
 .hero-content {
   padding: 200px 0px;
+  width: 50%;
+}
+.hero-container {
   width: 50%;
 }
 .hero-inner {
@@ -20,6 +26,13 @@
 }
 .hero-text {
   padding-bottom: 20px;
+}
+.hero-img {
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .hero-button {
   display: inline-block;
@@ -34,24 +47,4 @@
   position: relative;
   background-color: var(--accentColor);
   width: 50%;
-}
-
-.hero-product::before {
-  content: '';
-  background-image: url('../../images/lemons-img.jpg');
-  background-size: cover; /* або contain, залежно від потреб */
-  background-position: center;
-  opacity: 0.8; /* задає прозорість */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0; /* поміщає фон під контент */
-}
-
-.content {
-  position: relative;
-  z-index: 1; /* контент поверх напівпрозорого фону */
-  color: #000; /* колір тексту */
 }

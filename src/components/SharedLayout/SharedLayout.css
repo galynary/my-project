@@ -6,6 +6,13 @@
 .header {
   position: absolute;
   z-index: 1;
-  top: 20px;
-  right: 0px;
+  right: 20px;
+}
+
+.header > .header-container {
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
