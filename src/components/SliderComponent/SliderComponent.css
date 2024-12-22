@@ -26,15 +26,6 @@
       var(--orangeColor) 50%
     );
   }
-  .slide-button.bt-1 {
-    background-color: var(--secondGreenColor);
-  }
-  .slide-button.bt-2 {
-    background-color: var(--secondGreenColor);
-  }
-  .slide-button.bt-3 {
-    background-color: var(--secondGreenColor);
-  }
 
   .slide-content {
     display: flex;
@@ -88,11 +79,12 @@
     border-radius: 5px;
     letter-spacing: 0.08em;
     cursor: pointer;
+    background-color: var(--secondGreenColor);
     box-shadow: 2px 3px 10px rgba(84, 86, 84, 0.5);
   }
 
   .text-content button:hover {
-    background-color: #0056b3;
+    background-color: #339513;
   }
 }
 @media screen and (min-width: 920px) {
