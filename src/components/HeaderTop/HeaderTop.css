@@ -1,0 +1,15 @@
+.header-top-contant,
+.header-nav-menu,
+.header-right-contant {
+  display: flex;
+  gap: 20px;
+}
+.header-top {
+  width: 100%;
+  background-color: var(--secondGreenColor);
+  padding: 15px 0px;
+}
+.header-top-contant {
+  width: 100%;
+  justify-content: space-between;
+}
