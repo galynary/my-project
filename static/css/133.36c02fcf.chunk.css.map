@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/133.36c02fcf.chunk.css","mappings":"AAAA,wBACE,YAAa,CACb,eACF,CACA,aACE,SACF,CACA,gBACE,WACF","sources":["pages/ProductsPage/ProductsPage.css"],"sourcesContent":[".wrap-container-catalog {\n  display: flex;\n  margin-top: 30px;\n}\n.catalog-nav {\n  width: 20%;\n}\n.catalog-fruits {\n  flex-grow: 1;\n}\n"],"names":[],"sourceRoot":""}
