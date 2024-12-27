@@ -1,7 +1,5 @@
 .page-fruits {
-  width: 100%;
-  height: auto;
-  position: relative;
+  background-color: var(--whiteColor);
 }
 
 .hero {

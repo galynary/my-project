@@ -1,3 +1,5 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import '../SharedLayout/SharedLayout.css';
 import { HeaderTop } from 'components/HeaderTop/HeaderTop';
 export const SharedLayout = () => {
@@ -14,9 +16,10 @@ export const SharedLayout = () => {
                 </div>
                 <div className="header-contant">
                   <div className="header-catalog">
-                    <a className="header-link" href="catalog">
+                    <Link to="/fruits" className="header-link">
+                      {' '}
                       Каталог продуктів
-                    </a>
+                    </Link>
                     <ul className="products-list">
                       <li className="header-nav-item">
                         <a className="header-link" href="fruits">

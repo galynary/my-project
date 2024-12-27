@@ -1,0 +1,8 @@
+.nav {
+  padding-top: 130px;
+  margin-bottom: 40px;
+}
+.breadcrumbs {
+  display: flex;
+  gap: 15px;
+}

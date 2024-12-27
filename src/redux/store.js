@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { productsReducer } from './productsSlice';
+import { backetReducer } from './backet/slice';
 
 export const store = configureStore({
   reducer: {
-    products: productsReducer,
+    backet: backetReducer.reducer,
   },
 });
