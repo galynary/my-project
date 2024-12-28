@@ -4,7 +4,27 @@
 }
 .catalog-nav {
   width: 20%;
+  background-color: var(--bgCard);
+  padding: 15px;
+  border: 1px solid #d8d0d0;
+  border-radius: 8px;
+}
+.nav-fruits-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.nav-fruits-item {
+  border-bottom: 1px solid #d8d0d0;
 }
 .catalog-fruits {
   flex-grow: 1;
+  background-color: var(--bgCard);
+}
+.nav-fruits-link {
+  color: var(--grayColor);
+}
+.nav-fruits-link:hover,
+.nav-fruits-link:active {
+  color: var(--secondGreenColor);
 }

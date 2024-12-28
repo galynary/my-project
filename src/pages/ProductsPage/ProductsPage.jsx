@@ -1,5 +1,6 @@
 import React from 'react';
 import '../ProductsPage/ProductsPage.css';
+import { ProductCard } from '../../components/ProductCard/ProductCard';
 //import { useSelector } from 'react-redux';
 //import { productsSelector } from '../../redux/store';
 
@@ -13,6 +14,11 @@ const ProductsPage = () => {
         <div className="wrap-container-catalog">
           <div className="catalog-nav">
             <ul className="nav-fruits-lists">
+              <li className="nav-fruits-item">
+                <a className="nav-fruits-link" href="кісточкові">
+                  Всі фрукти
+                </a>
+              </li>
               <li className="nav-fruits-item">
                 <a className="nav-fruits-link" href="кісточкові">
                   Кісточкові
@@ -35,7 +41,9 @@ const ProductsPage = () => {
               </li>
             </ul>
           </div>
-          <div className="catalog-fruits"></div>
+          <div className="catalog-fruits">
+            <ProductCard />
+          </div>
         </div>
       </div>
     </section>

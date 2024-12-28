@@ -52,7 +52,7 @@ export const SliderComponent = () => {
               <div className="slide-inner text-content">
                 <h2 className="slide-title">{slide.title}</h2>
                 <p className="slide-text">{slide.description}</p>
-                <button className={`slide-button bt-${index + 1}`}>
+                <button className={`button bt-${index + 1}`}>
                   {slide.buttonText}
                 </button>
               </div>
